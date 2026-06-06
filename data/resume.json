@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "name": "Koushikk M",
+    "designation": "Mechanical Engineer",
+    "intro": "I am a Mechanical Engineer with a strong passion for design, innovation, and practical problem-solving. My academic journey has been a great roller coaster of emotions filled with knowledge and gratitude.",
+    "typingPhrases": [
+      "Mechanical Engineer",
+      "Structural Testing Specialist",
+      "NDT Enthusiast",
+      "Automotive Design",
+      "Sustainable Technologies"
+    ],
+    "resumeUrl": "assets/resume.pdf",
+    "photo": "assets/images/profile.jpg"
+  },
+  "about": {
+    "summary": "I would always like to extend my knowledge and experience in mechanical engineering, particularly in areas related to NDT's, Automotive Design and Sustainable Technologies. With hands-on experience in structural testing, strain gauge analysis, and CAD design, I combine academic excellence with practical engineering skills.",
+    "highlights": [
+      "Internship experience at A.E Engineering Madurai in welding, quality checks, and root card maintenance",
+      "Structural testing intern at ATALON using Dewesoft, FlexLogger, and LabVIEW",
+      "Strain gauge testing for NIOT (MATSYA-6000) and TEREX India (FRANNA 25T Cranes)",
+      "Vibrational testing for BS & B Systems – Sanmar Ltd and Zentron Labs Pvt Ltd"
+    ]
+  },
+  "education": [
+    {
+      "degree": "B.Tech in Mechanical Engineering",
+      "institution": "Kalasalingam Academy of Research and Education",
+      "location": "Virudhunagar, Tamil Nadu, India",
+      "period": "June 2023 – April 2026",
+      "details": "CGPA – 9.52"
+    },
+    {
+      "degree": "Diploma in Mechanical Engineering",
+      "institution": "Tamilnadu Government Polytechnic College",
+      "location": "Madurai, Tamil Nadu, India",
+      "period": "June 2020 – April 2023",
+      "details": "CGPA – 10/10 (96.4%)"
+    },
+    {
+      "degree": "SSLC (10th Standard)",
+      "institution": "C.E.O.A Matriculation Higher Secondary School",
+      "location": "Madurai, Tamil Nadu, India",
+      "period": "April 2020",
+      "details": "495/500 (99%)"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Intern — Structural Testing",
+      "company": "ATALON (Structural Testing in Machines)",
+      "period": "2024 – Present",
+      "description": [
+        "Testing structural integrity and performance under expected loading conditions of solid structures",
+        "Using strain gauges and accelerometers integrated with Dewesoft, FlexLogger, and LabVIEW",
+        "Strain Gauge Testing: NIOT (MATSYA-6000), TEREX India Limited (FRANNA 25T Cranes)",
+        "Vibrational Testing: BS & B Systems – Sanmar Ltd (Rupture Disks), Zentron Labs Pvt Ltd (IMM and Food Sorting Machines)"
+      ]
+    },
+    {
+      "title": "Internship",
+      "company": "A.E Engineering, Madurai",
+      "period": "2 Months (Polytechnic)",
+      "description": [
+        "Handled root card maintenance and performed welding tasks ensuring precision and safety",
+        "Managed and updated part number records",
+        "Conducted quality checks on products to maintain high industry standards"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      { "name": "Structural Analysis (Dewesoft)", "level": 90, "icon": "fa-solid fa-wave-square" },
+      { "name": "FlexLogger", "level": 85, "icon": "fa-solid fa-chart-line" },
+      { "name": "LabVIEW", "level": 85, "icon": "fa-solid fa-microchip" },
+      { "name": "SolidWorks (CAD)", "level": 88, "icon": "fa-solid fa-cube" },
+      { "name": "Ansys", "level": 80, "icon": "fa-solid fa-gears" },
+      { "name": "Origin Pro", "level": 82, "icon": "fa-solid fa-chart-area" },
+      { "name": "Arduino", "level": 78, "icon": "fa-solid fa-memory" }
+    ],
+    "soft": [
+      { "name": "Tamil", "level": 100, "icon": "fa-solid fa-language" },
+      { "name": "English", "level": 90, "icon": "fa-solid fa-language" },
+      { "name": "Telugu", "level": 85, "icon": "fa-solid fa-language" },
+      { "name": "Hindi", "level": 80, "icon": "fa-solid fa-language" },
+      { "name": "Team Leadership", "level": 92, "icon": "fa-solid fa-people-group" },
+      { "name": "Event Coordination", "level": 88, "icon": "fa-solid fa-calendar-check" }
+    ]
+  },
+  "certifications": [
+    {
+      "name": "Virtual Participation Certificate",
+      "issuer": "Solar Electric Vehicle Championship 2024",
+      "date": "2024",
+      "url": "",
+      "description": "Vice Captain of the participating team"
+    },
+    {
+      "name": "International Conference Participation",
+      "issuer": "Viksit Bharat 2047",
+      "date": "2024",
+      "url": "",
+      "description": "Presented research and participated in national conference"
+    },
+    {
+      "name": "Research Award",
+      "issuer": "Mechanical Department, Kalasalingam Academy",
+      "date": "2025",
+      "url": "",
+      "description": "Recognized for 4 years of research contributions to the Mechanical Department"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Mechanical Footstep Electricity Production",
+      "category": "research",
+      "status": "completed",
+      "image": "assets/images/projects/footstep.svg",
+      "description": "Diploma Final Year Project using Cylindrical Cam Mechanism to generate electricity from mechanical footstep energy.",
+      "tags": ["Renewable Energy", "Mechanism Design", "Diploma Project"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "Thermoelectric Armband with Mini Flashlight and Charger",
+      "category": "research",
+      "status": "completed",
+      "image": "assets/images/projects/thermoelectric.svg",
+      "description": "Wearable thermoelectric device with integrated flashlight and charger. Paper published in IRJET.",
+      "tags": ["Thermoelectric", "Wearable Tech", "IRJET Publication"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "Fabrication of CNC Lathe & Milling Machines",
+      "category": "fabrication",
+      "status": "completed",
+      "image": "assets/images/projects/cnc.svg",
+      "description": "Designed and fabricated CNC Lathe and Milling machines for the Mechanical Department Research Lab. Secured 2nd place at NEC TECH FEST 2K25.",
+      "tags": ["CNC", "Fabrication", "Research Lab"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "Multimodal Imaging and Fusion for Composite Material Characterization",
+      "category": "research",
+      "status": "ongoing",
+      "image": "assets/images/projects/imaging.svg",
+      "description": "Chapter publication in Bentham Science Publications on multimodal imaging techniques for composite materials.",
+      "tags": ["Composite Materials", "Imaging", "Publication"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "LSDM Model Application — Zentron Labs Data",
+      "category": "research",
+      "status": "ongoing",
+      "image": "assets/images/projects/lsdm.svg",
+      "description": "Research paper on applying the LSDM model using data from Zentron Labs to replicate and generate outputs for different conditions without actual testing.",
+      "tags": ["Machine Learning", "Structural Testing", "Simulation"],
+      "liveUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "Fuel Generation from Plastics — Plastic Pyrolysis",
+      "category": "research",
+      "status": "ongoing",
+      "image": "assets/images/projects/pyrolysis.svg",
+      "description": "Research on generating fuel from plastics using plastic pyrolysis for sustainable energy solutions.",
+      "tags": ["Sustainability", "Pyrolysis", "Energy"],
+      "liveUrl": "",
+      "repoUrl": ""
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Ranked 1st — CGPA 9.36",
+      "year": "2023–2024",
+      "description": "Top academic performance in the academic year 2023–2024 at Kalasalingam Academy."
+    },
+    {
+      "title": "Ranked 1st — CGPA 9.49",
+      "year": "2024–2025",
+      "description": "Continued academic excellence with CGPA 9.49 in the academic year 2024–2025."
+    },
+    {
+      "title": "2nd Place — Path Pioneer (Line Following Robot)",
+      "year": "2025",
+      "description": "Secured 2nd place in the Line Following Robot category at EUPHORIA 2K25."
+    },
+    {
+      "title": "2nd Place — TECHNO CHILL Paper Presentation",
+      "year": "2025",
+      "description": "Presented paper on CNC Lathe & Milling Machine at NEC TECH FEST 2K25."
+    },
+    {
+      "title": "Best Captain Award — EBDC 2025",
+      "year": "2025",
+      "description": "Received Best Captain Award in the E-Bike Design Challenge (EBDC 2025)."
+    },
+    {
+      "title": "Design Head & Team Manager — SIEP 2025",
+      "year": "2025",
+      "description": "Served as Design Head and Team Manager for the E-Bike Design Challenge at SIEP 2025."
+    },
+    {
+      "title": "Event Coordinator",
+      "year": "2024–2025",
+      "description": "Coordinated Freshman Induction Programme, CAD Design Contest, and Robowar events."
+    },
+    {
+      "title": "SIH 2024 & MSME Hackathon 2024",
+      "year": "2024",
+      "description": "Active participant in Smart India Hackathon 2024 and MSME Hackathon 2024."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Thermoelectric Armband with Mini Flashlight and Charger",
+      "journal": "International Research Journal of Engineering and Technology (IRJET)",
+      "year": "2023",
+      "url": "",
+      "status": "published"
+    },
+    {
+      "title": "Multimodal Imaging and Fusion for Composite Material Characterization",
+      "journal": "Bentham Science Publications",
+      "year": "2025",
+      "url": "",
+      "status": "ongoing"
+    },
+    {
+      "title": "LSDM Model Application using Zentron Labs Data",
+      "journal": "Research Paper (In Progress)",
+      "year": "2025",
+      "url": "",
+      "status": "ongoing"
+    },
+    {
+      "title": "Fuel Generation from Plastics using Plastic Pyrolysis",
+      "journal": "Research Paper (In Progress)",
+      "year": "2025",
+      "url": "",
+      "status": "ongoing"
+    }
+  ],
+  "contact": {
+    "email": "smkoushikk@gmail.com",
+    "phone": "+91 9442661998",
+    "linkedin": "https://www.linkedin.com/in/koushikk-mkk",
+    "github": "",
+    "location": "Madurai, Tamil Nadu, India",
+    "formAction": ""
+  },
+  "nav": [
+    { "id": "about", "label": "About" },
+    { "id": "education", "label": "Education" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "certifications", "label": "Certifications" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "achievements", "label": "Achievements" },
+    { "id": "research", "label": "Research" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "seo": {
+    "title": "Koushikk M | Mechanical Engineer",
+    "description": "Mechanical Engineer specializing in structural testing, NDT, automotive design, and sustainable technologies. B.Tech at Kalasalingam Academy.",
+    "keywords": "Koushikk M, Mechanical Engineer, NDT, Structural Testing, CAD, SolidWorks, Ansys"
+  }
+}

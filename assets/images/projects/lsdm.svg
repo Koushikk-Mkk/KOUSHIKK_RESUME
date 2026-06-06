@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
+  <rect width="400" height="180" fill="#ecfdf5"/>
+  <polyline points="100,120 150,80 200,100 250,60 300,90" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="150" cy="80" r="5" fill="#2563eb"/>
+  <circle cx="200" cy="100" r="5" fill="#2563eb"/>
+  <circle cx="250" cy="60" r="5" fill="#2563eb"/>
+  <text x="200" y="155" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="12">LSDM Model</text>
+</svg>

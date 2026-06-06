@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
+  <rect width="400" height="180" fill="#fff7ed"/>
+  <path d="M160 110 L200 50 L240 110 Z" fill="#2563eb" opacity="0.2"/>
+  <rect x="175" y="90" width="50" height="30" rx="4" fill="#2563eb" opacity="0.4"/>
+  <circle cx="200" cy="75" r="8" fill="#2563eb" opacity="0.6"/>
+  <text x="200" y="155" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="12">Plastic Pyrolysis</text>
+</svg>
