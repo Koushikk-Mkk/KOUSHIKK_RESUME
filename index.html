@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Koushikk M — Mechanical Engineer specializing in NDT, automotive design, and structural testing.">
+  <meta name="author" content="Koushikk M">
+  <meta name="keywords" content="Mechanical Engineer, NDT, Structural Testing, CAD, Koushikk M">
+  <meta property="og:title" content="Koushikk M | Mechanical Engineer">
+  <meta property="og:description" content="Mechanical Engineer with expertise in structural testing, NDT, and sustainable technologies.">
+  <meta property="og:type" content="website">
+  <title>Koushikk M | Mechanical Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+  <!-- Animated background (non-interactive, behind content) -->
+  <div class="bg-waves" id="bg-waves" aria-hidden="true">
+    <div class="bg-waves__glow bg-waves__glow--orange"></div>
+    <div class="bg-waves__glow bg-waves__glow--red"></div>
+
+    <!-- CSS-animated SVG waves (always visible, no JS required) -->
+    <svg class="bg-waves__svg bg-waves__svg--bottom" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#ff6600" stop-opacity="0.35"/>
+          <stop offset="50%" stop-color="#ff0040" stop-opacity="0.25"/>
+          <stop offset="100%" stop-color="#ff6600" stop-opacity="0.35"/>
+        </linearGradient>
+      </defs>
+      <path fill="url(#waveGrad1)" d="M0,60 C150,100 350,20 600,60 C850,100 1050,20 1200,60 L1200,120 L0,120 Z"/>
+      <path fill="url(#waveGrad1)" d="M0,80 C150,40 350,100 600,70 C850,40 1050,100 1200,75 L1200,120 L0,120 Z" opacity="0.6"/>
+    </svg>
+
+    <svg class="bg-waves__svg bg-waves__svg--bottom-2" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="rgba(255,0,64,0.18)" d="M0,50 C200,90 400,10 600,50 C800,90 1000,10 1200,50 L1200,100 L0,100 Z"/>
+      <path fill="rgba(255,102,0,0.14)" d="M0,65 C200,25 400,80 600,55 C800,20 1000,75 1200,60 L1200,100 L0,100 Z"/>
+    </svg>
+
+    <svg class="bg-waves__svg bg-waves__svg--top" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="rgba(255,102,0,0.12)" d="M0,40 C300,0 600,70 900,30 C1050,10 1150,50 1200,35 L1200,0 L0,0 Z"/>
+      <path fill="rgba(255,0,64,0.1)" d="M0,25 C250,60 550,5 850,40 C1000,55 1100,15 1200,30 L1200,0 L0,0 Z"/>
+    </svg>
+
+    <canvas class="bg-waves__canvas" id="wave-canvas"></canvas>
+  </div>
+
+  <!-- Sticky Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo">KM</a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu"></ul>
+      <div class="nav__actions">
+        <button class="btn btn--icon" id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="assets/resume.pdf" class="btn btn--primary btn--sm" id="nav-resume-btn" download>
+          <i class="fa-solid fa-download"></i> Resume
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section"></section>
+    <section id="about" class="section section--alt"></section>
+    <section id="education" class="section"></section>
+    <section id="experience" class="section section--alt"></section>
+    <section id="skills" class="section"></section>
+    <section id="certifications" class="section section--alt"></section>
+    <section id="projects" class="section"></section>
+    <section id="achievements" class="section section--alt"></section>
+    <section id="research" class="section"></section>
+    <section id="contact" class="section section--alt"></section>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <!-- Resume data (works when opening index.html directly — no server needed) -->
+  <script src="data/resume-data.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

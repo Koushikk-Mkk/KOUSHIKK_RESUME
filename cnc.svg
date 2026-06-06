@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
+  <rect width="400" height="180" fill="#fef3c7"/>
+  <rect x="130" y="40" width="140" height="80" rx="4" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="160" cy="80" r="15" fill="#2563eb" opacity="0.4"/>
+  <rect x="210" y="65" width="40" height="30" fill="#2563eb" opacity="0.3"/>
+  <text x="200" y="155" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="12">CNC Lathe &amp; Milling</text>
+</svg>

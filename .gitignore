@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Optional — regenerate with: node scripts/build-standalone.js
+# standalone.html is committed so sharing works without building

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
+  <rect width="400" height="180" fill="#f0fdf4"/>
+  <circle cx="200" cy="80" r="40" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <path d="M170 80 L200 50 L230 80 L200 110 Z" fill="#2563eb" opacity="0.3"/>
+  <text x="200" y="155" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="12">Thermoelectric Armband</text>
+</svg>

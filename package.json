@@ -1,0 +1,11 @@
+{
+  "name": "koushikk-resume-website",
+  "version": "1.0.0",
+  "description": "Personal resume website for Koushikk M",
+  "scripts": {
+    "build:standalone": "node scripts/build-standalone.js",
+    "sync:data": "node -e \"const fs=require('fs');const j=fs.readFileSync('data/resume.json','utf8');fs.writeFileSync('data/resume-data.js','window.RESUME_DATA = '+j+';')\"",
+    "predeploy": "npm run sync:data && npm run build:standalone"
+  },
+  "private": true
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
+  <rect width="400" height="180" fill="#ede9fe"/>
+  <rect x="120" y="50" width="60" height="60" fill="#2563eb" opacity="0.2" rx="4"/>
+  <rect x="190" y="50" width="60" height="60" fill="#2563eb" opacity="0.4" rx="4"/>
+  <rect x="260" y="50" width="60" height="60" fill="#2563eb" opacity="0.6" rx="4"/>
+  <text x="200" y="155" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="12">Multimodal Imaging</text>
+</svg>
